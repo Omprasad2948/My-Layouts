@@ -1,0 +1,324 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(253, 254, 254);
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(184, 178, 178); */
+}
+
+#navbar {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(245, 241, 241);
+}
+
+#navbar .logo {
+    float: left;
+    width: 10%;
+    /* border: 2px solid black; */
+    padding: 1px 15px;
+    margin: auto 175px;
+}
+
+#navbar .logo h1 {
+    color: black;
+    font-size: 2.3rem;
+}
+
+#navbar .menu {
+    float: right;
+    width: 40%;
+    margin-top: 10px;
+}
+
+#navbar .menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    margin: 6px 6px;
+    font-weight: bold;
+}
+
+#navbar .menu a:hover {
+    color: white;
+    background-color: rgb(208, 201, 201);
+    border: 1px solid black;
+    border-radius: 13px 0px 13px 0px;
+}
+
+/* home styling */
+#home {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#home::before {
+    content: '';
+    width: 100%;
+    height: 500px;
+    background: url(../Images/mountain.jpg)no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+    top: 0;
+    left: 0;
+}
+
+#home h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+#home h2 {
+    font-size: 2rem;
+    /* font-weight: bold; */
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn {
+    padding: 5px 25px;
+    font-size: 1.15rem;
+}
+
+.btn:hover {
+    background-color: rgb(226, 221, 221);
+    color: white;
+    cursor: pointer;
+}
+
+#content-box {
+    width: 80%;
+    margin: auto;
+    height: 325px;
+    display: flex;
+}
+
+.box {
+    width: 32%;
+    height: 262px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.box img {
+    width: 20%;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.box h2 {
+    font-size: 1.45rem;
+    font-weight: bold;
+    padding-top: 17px;
+}
+
+.box p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 13px 11px;
+}
+
+/* featured content styling */
+#features {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 640px;
+    background-color: rgb(241, 238, 238);
+}
+
+#features h1 {
+    font-size: 2rem;
+    bottom: 0;
+}
+
+#features h2 {
+    font-size: 2rem;
+    color: red;
+    font-weight: bold;
+    top: 0;
+}
+
+#features p {
+    text-align: center;
+    font-size: 1.05rem;
+    margin-top: 10px;
+    padding: 10px 215px;
+}
+
+#features video {
+    margin-top: 30px;
+}
+
+/* Secondary content styling */
+#sec-content {
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    display: flex;
+}
+
+.sec-box {
+    width: 46%;
+    border: 1px solid black;
+    margin: 40px auto;
+    height: 334px;
+    display: flex;
+}
+
+.box1 {
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    /* background-color: rgb(241, 238, 238); */
+
+}
+
+.box2 {
+    width: 50%;
+    /* border: 1px solid green; */
+}
+
+.box2 img {
+    width: 100%;
+    height: 333px;
+}
+
+.box1 h1 {
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.box1 h2 {
+    color: skyblue;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.box1 p {
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 20px;
+}
+
+#btn1 {
+    padding: 6px 20px;
+    margin: 24px 8px;
+    border: 2.5px solid skyblue;
+    cursor: pointer;
+    color: skyblue;
+    font-size: 1.1rem;
+}
+
+#btn2 {
+    padding: 6px 20px;
+    margin: 24px 8px;
+    border: 2.5px solid skyblue;
+    cursor: pointer;
+    color: skyblue;
+    font-size: 1.1rem;
+}
+
+/* heard styling */
+#heard {
+    width: 80%;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+#heard button {
+    padding: 6px 20px;
+    margin: 24px 8px;
+    border: 2.5px solid skyblue;
+    cursor: pointer;
+    color: skyblue;
+    font-size: 1.1rem;
+
+}
+
+#heard h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#heard h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: skyblue;
+}
+
+#heard p {
+    padding-top: 30px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+/* footer styling */
+#footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(241, 238, 238);
+    display: flex;
+}
+#footer .foot1{
+    width: 40%;
+    float: left;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    
+}
+#footer p,li{
+   font-size: 1.1rem;
+   list-style: none;
+   padding: 4px;
+   
+   
+}
+#footer .foot2{
+    width: 60%;
+    float: right;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+#footer .foot-box{
+    padding: 1px 10px;
+    margin: 1px 75px;
+}
+#footer ul>:first-child{
+    color: black;
+    font-weight: bold;
+}

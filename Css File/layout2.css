@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navigation {
+    width: 100%;
+    background-color: #e3eadd;
+    height: 55px;
+
+}
+
+#navigation .logo {
+    width: 20%;
+    float: left;
+}
+
+#navigation .logo h1 {
+    width: 20%;
+    padding: 2px 3px;
+    margin: 8px 16px;
+    color: rgb(78, 75, 75);
+    font-size: 1.7em;
+}
+
+#navigation .menu {
+    width: 30%;
+    float: right;
+}
+
+#navigation .menu ul {
+    width: 100%;
+    display: flex;
+
+}
+
+#navigation .menu ul li {
+    padding: 2px 3px;
+    margin: 11px 7px;
+    list-style: none;
+}
+
+#navigation .menu ul li a {
+    padding: 2px 6px;
+    margin: 4px 9px;
+    text-decoration: none;
+    color: rgb(78, 75, 75);
+    font-size: 1.25rem;
+}
+
+#navigation .menu ul li a:hover {
+    border: 2px solid darkgray;
+}
+
+/* Home Styling */
+#home {
+    width: 100%;
+    height: 265px;
+}
+
+#home .middle {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin-top: 230px;
+
+}
+
+#home .middle h1 {
+    font-size: 2.8em;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+#home .middle h4 {
+    font-size: 1em;
+    text-align: center;
+}
+
+#home .middle h5 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+#home::before {
+    content: '';
+    position: absolute;
+    background: url(../Images/leaps.jpg)no-repeat center center/cover;
+    width: 100%;
+    height: 550px;
+    z-index: -1;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+}
+
+/* article Styling */
+#article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    top: 0;
+    bottom: 0;
+    height: 841px;
+    background-color: #D4E7C5;
+}
+
+#article h1 {
+    font-size: 2.5rem;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .box {
+    width: 100%;
+    height: 475px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    box-shadow: 10px 10px 20px black;
+    margin: 70px;
+
+}
+
+.box img {
+    width: 100%;
+    height: 300px;
+}
+
+.box h3 {
+    font-size: 3rem;
+}
+
+.box p {
+    font-size: 1.3rem;
+    padding: 23px 4px;
+    margin: 14px 2px;
+    text-align: center;
+}
+
+/* about Styling */
+#about {
+    width: 100%;
+    height: 526px;
+    /* border: 2px solid red; */
+    /* margin-top: 120px; */
+
+}
+
+#about .imgs {
+    width: 50%;
+    float: left;
+    /* border: 2px solid black; */
+}
+
+#about .imgs img {
+    width: 100%;
+    height: 550px;
+}
+
+#about .aboutcont {
+    width: 50%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    /* border: 2px solid black; */
+}
+
+#about .aboutcont h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#about .aboutcont h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#about .aboutcont p {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 19px 12px;
+    margin: 10px 10px;
+}
+
+/* Subscribe styling */
+#subscribe {
+    width: 100%;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    background-color: #BFD8AF;
+}
+
+#subscribe h2 {
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2px 3px;
+    margin: 2px 3px;
+}
+
+#subscribe h3 {
+    font-size: 1.6rem;
+    font-family: cursive;
+    padding: 1px 8px;
+    margin-bottom: 43px;
+}
+
+#subscribe .email {
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 137px;
+    margin: 2px 3px;
+}
+
+#subscribe .btn {
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 12px 43px;
+    margin: 25px 148px;
+    cursor: pointer;
+}
+
+/* footer Styling */
+#foot {
+    width: 100%;
+    height: 75px;
+    /* border: 2px solid black; */
+}
+
+#foot .flogo {
+
+    float: left;
+    padding: 7px 7px;
+    margin: 13px 23px;
+}
+
+.flogo img {
+    padding: 5px;
+
+    height: 40px;
+    /* border: 2px solid black; */
+}
+
+#foot .fmenu {
+    float: right;
+    padding: 7px 7px;
+    margin: 13px 23px;
+}
+
+#foot .fmenu a {
+    text-decoration: none;
+    padding: 7px 7px;
+    margin: 13px 23px;
+    font-size: 1.1rem;
+    color: black;
+}

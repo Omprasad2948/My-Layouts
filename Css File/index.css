@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navigation-bar {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    background-color: black;
+    height: 60px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.navbar img {
+    height: 51px;
+    width: 142px;
+    margin: auto 30px;
+}
+
+.navbar .items {
+    width: 100%;
+    display: flex;
+    margin-left: 600px;
+}
+
+.items li {
+    list-style: none;
+}
+
+.items li a {
+    text-decoration: none;
+    color: white;
+    margin: 2px 17px;
+    padding: 5px 6px;
+    font-size: 1.2rem;
+
+}
+
+.items li a:hover {
+    background-color: rgb(128, 251, 128);
+    border-radius: 4px;
+}
+
+/* Home Pages */
+#home {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.home-page {
+    width: 50%;
+    height: 100%;
+}
+
+.h-secondary {
+    font-size: 3.4rem;
+    color: white;
+    padding: 2px 3px;
+    margin-top: 64px;
+    margin-bottom: 15px;
+    margin-left: 35px;
+}
+
+.home-page p {
+    font-size: 1.2rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 31px;
+    margin-left: 35px;
+    margin-top: 10px;
+    color: white;
+}
+
+.btn {
+    display: flex;
+    padding: 2px 3px;
+    margin: 2px 33px;
+}
+
+.btn1 {
+    font-size: 1.2rem;
+    background-color: aqua;
+    padding: 5px 18px;
+    margin: 2px 7px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn2 {
+    font-size: 1.2rem;
+    background-color: rgb(235, 114, 16);
+    padding: 5px 18px;
+    margin: 2px 7px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#home::before{
+    content: " ";
+    background: url(../Images/home2.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:503px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+.h-primary {
+    color: white;
+    font-size: 2rem;
+}
