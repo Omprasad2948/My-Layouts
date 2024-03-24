@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(171,132,241,1) 0%, rgba(255,255,255,1) 100%);
+    height: 100%;
+}
+
+
+.container {
+    width: 70vw;
+    display: flex;
+    margin: auto;
+    border: 0.2px solid black;
+    height: 600px;
+    margin-top: 60px;
+    background-color: #f6f3f3;
+    box-shadow: 10px 10px 20px black;
+   
+}
+
+.container .formdata {
+    width: 40%;
+    /* border: 2px solid red; */
+    margin: 26px 20px;
+    padding: 2px 24px;
+    box-shadow: 5px 5px 3px gray;
+}
+
+.formdata h1 {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.formdata p {
+    font-size: 1.1em;
+    padding: 2px 0px;
+    margin: 3px 0px 33px 0px;
+}
+
+.formdata label {
+    font-size: 1.15em;
+    font-style: bold;
+    color: black;
+    font-weight: 700;
+}
+
+.formdata input[type=email] {
+    width: 96%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 5px 0px 10px 0px;
+}
+
+.formdata input[type=password] {
+    width: 96%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 5px 0px 10px 0px;
+
+}
+
+.formdata input[type=submit] {
+    width: 96%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 22px 0px 10px 0px;
+    color: white;
+    background-color: blue;
+}
+
+.forget {
+    padding-left: 92px;
+}
+
+.btn {
+    padding: 10px 57px;
+    margin: 9px 6px;
+}
+
+.google {
+    background-color: white;
+    color: orangered;
+    border: 2px solid orangered;
+    background-image: url(../Images/google.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 27px;
+    background-position-y: 3px;
+    background-position-x: 9px;
+
+
+}
+
+.facebook {
+    background-color: white;
+    color: rgb(16, 16, 75);
+    border: 2px solid rgb(16, 16, 75);
+    background-image: url(../Images/facebook.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 27px;
+    background-position-y: 3px;
+    background-position-x: 9px;
+}
+
+.formdata a {
+    font-size: 1.1em;
+    color: purple;
+}
+
+.formimg {
+    width: 56%;
+    margin: 49px 17px;
+    padding: 2px 0px;
+}
+
+.formimg img {
+    width: 80%;
+
+
+}
